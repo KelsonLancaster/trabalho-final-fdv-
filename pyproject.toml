@@ -1,0 +1,15 @@
+[project]
+name = "trabalho-final"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "FrankCastle007", email = "geraldez3000@gmail.com"},
+]
+dependencies = ["click>=8.3.1", "pillow>=12.0.0", "rich>=14.2.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
